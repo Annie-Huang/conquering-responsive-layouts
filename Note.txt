@@ -1,0 +1,5 @@
+https://courses.kevinpowell.co/courses/conquering-responsive-layouts
+
+==========================================================================
+Day 1 | Using percentages & avoiding heights
+
