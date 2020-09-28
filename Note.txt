@@ -4,5 +4,9 @@ https://github.com/Annie-Huang/conquering-responsive-layouts
 ==========================================================================
 Day 1 | Using percentages & avoiding heights
 
+==========================================================================
 
 C:\react\conquering-responsive-layouts>npm init -y
+
+1. Set % on width to keep the responsiveness
+2. Set padding on element instead of height:10px to give more background
