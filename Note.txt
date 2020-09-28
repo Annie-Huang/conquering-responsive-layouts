@@ -5,4 +5,4 @@ https://github.com/Annie-Huang/conquering-responsive-layouts
 Day 1 | Using percentages & avoiding heights
 
 
-
+C:\react\conquering-responsive-layouts>npm init -y

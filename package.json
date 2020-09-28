@@ -1,0 +1,20 @@
+{
+  "name": "conquering-responsive-layouts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=./challenge01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/conquering-responsive-layouts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/conquering-responsive-layouts/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/conquering-responsive-layouts#readme"
+}
