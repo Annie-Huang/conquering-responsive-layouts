@@ -4,6 +4,23 @@ https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week
 
 * {
   font-family: Roboto;
+  margin: 0;
+}
+
+.intro {
+  background: #23424A;
+  color: #FFFFFF;
+  padding: 148px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-content {
+  width: 55%;
 }
 
 h1 {
@@ -16,10 +33,11 @@ p {
   font-weight: 400;
   font-size: 1.3125rem; /* 21px */
   line-height: 2rem; /* 32px */
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 a {
+  display: inline-block; /* Make it like a button */
   font-weight: 700;
   font-size: 1.3125rem; /* 21px */
   line-height: 2rem; /* 32px */
