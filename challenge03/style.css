@@ -1,0 +1,33 @@
+/*
+https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week-1-final-challenge?node-id=0%3A1
+*/
+
+* {
+  font-family: Roboto;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem; /* 48px */
+  line-height: 3.5rem; /* 56px If it is em, it's related to the font size of the current, so change them both to rem */
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.3125rem; /* 21px */
+  line-height: 2rem; /* 32px */
+  margin-bottom: 1rem;
+}
+
+a {
+  font-weight: 700;
+  font-size: 1.3125rem; /* 21px */
+  line-height: 2rem; /* 32px */
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #072A2D;
+  padding: 1rem 3rem;
+  background: #38CFD9;
+  border-radius: 100vw;
+}
