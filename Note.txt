@@ -10,3 +10,5 @@ C:\react\conquering-responsive-layouts>npm init -y
 
 1. Set % on width to keep the responsiveness
 2. Set padding on element instead of height:10px to give more background
+3. Set the max-width on your container, you don't want to container goes forever big along with the window size, (human head doesn't like to move to read text)
+4. Can consider use vh on front-size for bigbig title, rather than em|rem
