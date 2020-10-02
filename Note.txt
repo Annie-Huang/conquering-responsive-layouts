@@ -1,12 +1,20 @@
 https://courses.kevinpowell.co/courses/conquering-responsive-layouts
 
 https://github.com/Annie-Huang/conquering-responsive-layouts
+
+https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week-1-final-challenge?node-id=0%3A1
+
 ==========================================================================
 Day 1 | Using percentages & avoiding heights
+Day 2 | Getting familiar with relative units
+Day 3 | Enter max-width
+Day 4 | Extra curricular activities
+Day 5 | Practice time!
 
 ==========================================================================
 
 C:\react\conquering-responsive-layouts>npm init -y
+
 
 1. Set % on width to keep the responsiveness
 2. Set padding on element instead of height:10px to give more background
