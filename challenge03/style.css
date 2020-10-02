@@ -45,7 +45,8 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   color: #072A2D;
-  padding: 1rem 3rem;
+  /*padding: 1rem 3rem; !* 16px 48px *!*/
+  padding: 0.7619em 2.2857em; /* 16px 48px em can make it adjust according to font-size of the <a>*/
   background: #38CFD9;
   border-radius: 100vw;
 }
