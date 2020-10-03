@@ -63,8 +63,11 @@ h1 {
 /*}*/
 p {
   font-weight: 400;
+}
+.hero p {
   margin-bottom: 3rem;
 }
+
 
 /*a {*/
 /*  display: inline-block; !* Make it like a button *!*/
@@ -82,12 +85,13 @@ p {
 /*}*/
 .btn {
   display: inline-block; /* Make it like a button */
-  font-weight: 700;
+  font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
   color: #072A2D;
   /*padding: 1rem 3rem; !* 16px 48px *!*/
-  padding: 0.7619em 2.2857em; /* 16px 48px em can make it adjust according to font-size of the <a>*/
+  /*padding: 0.7619em 2.2857em; !* 16px 48px em can make it adjust according to font-size of the <a>*!*/
+  padding: 0.75em 2em; /* 16px 48px em can make it adjust according to font-size of the <a>*/
   background: #38CFD9;
   border-radius: 100vw;
 }
