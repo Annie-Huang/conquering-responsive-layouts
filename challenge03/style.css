@@ -13,6 +13,7 @@ https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.3125rem; /* 21px */
 }
 
 /*.intro {*/
@@ -33,9 +34,8 @@ body {
 /*}*/
 .container {
   width: 80%;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  border: 1px solid yellow;
 }
 
 /*.intro-content {*/
@@ -43,28 +43,46 @@ body {
 /*}*/
 .hero__text {
   width: 60%;
-  border: 1px solid pink;
 }
 
+/*h1 {*/
+/*  font-weight: 900;*/
+/*  font-size: 3rem; !* 48px *!*/
+/*  line-height: 3.5rem; !* 56px If it is em, it's related to the font size of the current, so change them both to rem *!*/
+/*}*/
 h1 {
   font-weight: 900;
   font-size: 3rem; /* 48px */
-  line-height: 3.5rem; /* 56px If it is em, it's related to the font size of the current, so change them both to rem */
 }
 
+/*p {*/
+/*  font-weight: 400;*/
+/*  font-size: 1.3125rem; !* 21px *!*/
+/*  line-height: 2rem; !* 32px *!*/
+/*  margin-bottom: 3rem;*/
+/*}*/
 p {
   font-weight: 400;
-  font-size: 1.3125rem; /* 21px */
-  line-height: 2rem; /* 32px */
   margin-bottom: 3rem;
 }
 
-a {
+/*a {*/
+/*  display: inline-block; !* Make it like a button *!*/
+/*  font-weight: 700;*/
+/*  font-size: 1.3125rem; !* 21px *!*/
+/*  line-height: 2rem; !* 32px *!*/
+/*  letter-spacing: 0.05em;*/
+/*  text-decoration: none;*/
+/*  text-transform: uppercase;*/
+/*  color: #072A2D;*/
+/*  !*padding: 1rem 3rem; !* 16px 48px *!*!*/
+/*  padding: 0.7619em 2.2857em; !* 16px 48px em can make it adjust according to font-size of the <a>*!*/
+/*  background: #38CFD9;*/
+/*  border-radius: 100vw;*/
+/*}*/
+.btn {
   display: inline-block; /* Make it like a button */
   font-weight: 700;
-  font-size: 1.3125rem; /* 21px */
-  line-height: 2rem; /* 32px */
-  letter-spacing: 0.05em;
   text-decoration: none;
   text-transform: uppercase;
   color: #072A2D;
