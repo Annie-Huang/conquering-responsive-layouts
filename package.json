@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./challenge03"
+    "start": "lite-server --baseDir=./02-3-challenge"
   },
   "repository": {
     "type": "git",
