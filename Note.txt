@@ -3,6 +3,8 @@ https://courses.kevinpowell.co/courses/conquering-responsive-layouts
 https://github.com/Annie-Huang/conquering-responsive-layouts
 
 https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week-1-final-challenge?node-id=0%3A1
+https://fonts.google.com/specimen/Roboto?query=roboto
+https://fonts.google.com/specimen/Roboto?query=roboto&sidebar.open=true&selection.family=Roboto:wght@400;900
 
 ==========================================================================
 Day 1 | Using percentages & avoiding heights
