@@ -52,23 +52,14 @@ h1 {
   width: 100%;
 }
 
-.gap--small + .gap--small {
-  margin-left: 20px;
-}
-.gap--large + .gap--large {
-  margin-left: 40px;
-}
-
-.info {
-  padding: 25px 0;
-  text-align: center;  /*Not sure if it should be make in this level */
-}
-.info--odd h2 {
-  color: #87629A;
-}
-.info--even {
-  background-color: #136C72;
-  color: #FFF;
+/*.gap--small + .gap--small {*/
+/*  margin-left: 20px;*/
+/*}*/
+/*.gap--large + .gap--large {*/
+/*  margin-left: 40px;*/
+/*}*/
+.col + .col {
+  margin-left: 30px;
 }
 
 .hero {
@@ -84,6 +75,33 @@ h1 {
 .hero p {
   margin-bottom: 3em;
 }
+
+/*.info {*/
+/*  padding: 25px 0;*/
+/*  text-align: center;  !*Not sure if it should be make in this level *!*/
+/*}*/
+/*.info--odd h2 {*/
+/*  color: #87629A;*/
+/*}*/
+/*.info--even {*/
+/*  background-color: #136C72;*/
+/*  color: #FFF;*/
+/*}*/
+.three-col {
+  padding: 3em 0;
+  text-align: center;
+}
+.three-col h2 {
+  color: #87629A;
+}
+.two-col {
+  text-align: center;
+  padding: 3em 0;
+  background-color: #136C72;
+  color: #FFF;
+}
+
+
 
 .btn {
   display: inline-block;
