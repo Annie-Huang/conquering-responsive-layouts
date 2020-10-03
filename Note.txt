@@ -14,7 +14,8 @@ Day 4 | Extra curricular activities
 Day 5 | Practice time!
 Day 6 | Review
 Day 7 | Solution to challenge #3
-Day 8 | Flexbox Basics          << 02-3-challenge
+Day 8 | Flexbox Basics              << 02-3-challenge
+Day 9 | A deeper dive into flexbox
 
 ==========================================================================
 
