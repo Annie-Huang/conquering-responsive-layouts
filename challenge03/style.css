@@ -95,3 +95,8 @@ p {
   background: #38CFD9;
   border-radius: 100vw;
 }
+
+.btn:hover,
+.btn:focus {
+  opacity: .75;
+}
