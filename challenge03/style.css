@@ -1,26 +1,48 @@
 /*
 https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week-1-final-challenge?node-id=0%3A1
 */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-* {
-  font-family: Roboto;
+/** {*/
+/*  font-family: Roboto;*/
+/*  margin: 0;*/
+/*}*/
+
+body {
   margin: 0;
 }
 
-.intro {
+/*.intro {*/
+/*  background: #23424A;*/
+/*  color: #FFFFFF;*/
+/*  padding: 148px 0;*/
+/*}*/
+.hero {
   background: #23424A;
   color: #FFFFFF;
-  padding: 148px 0;
+  padding: 100px 0;
 }
 
+/*.container {*/
+/*  width: 90%;*/
+/*  max-width: 1200px;*/
+/*  margin: 0 auto;*/
+/*}*/
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 80%;
+  max-width: 900px;
   margin: 0 auto;
+  border: 1px solid yellow;
 }
 
-.intro-content {
-  width: 55%;
+/*.intro-content {*/
+/*  width: 55%;*/
+/*}*/
+.hero__text {
+  width: 60%;
+  border: 1px solid pink;
 }
 
 h1 {
