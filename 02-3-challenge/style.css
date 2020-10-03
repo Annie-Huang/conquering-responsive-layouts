@@ -8,14 +8,14 @@
 
 // Requirements
 1. The headings in the first row must be
-   a different color
+   a different color  << Done
 2. The two .col at the bottom must go next
-   to one another
+   to one another << Done.
 3. The section at the bottom should have
    a dark background color and a different
-   color of text
+   color of text  << Done
 4. I've removed the "gap" that I created,
-   so you'll have to add it back in
+   so you'll have to add it back in   << Prefer to use things that are supported.
 
    */
 
@@ -43,7 +43,6 @@ h1 {
   /* display: flex => flex container */
   display: flex;
 
-
   /* can't use yet */
   /* gap: 100px; */
 }
@@ -51,6 +50,25 @@ h1 {
 .col {
   /* these are now flex items */
   width: 100%;
+}
+
+.gap--small + .gap--small {
+  margin-left: 20px;
+}
+.gap--large + .gap--large {
+  margin-left: 40px;
+}
+
+.info {
+  padding: 25px 0;
+  text-align: center;  /*Not sure if it should be make in this level */
+}
+.info--odd h2 {
+  color: #87629A;
+}
+.info--even {
+  background-color: #136C72;
+  color: #FFF;
 }
 
 .hero {
