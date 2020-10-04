@@ -64,10 +64,15 @@ p span {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
 
+@media (min-width: 40rem) {
+  .sales-points {
+    flex-direction: row;
+  }
+}
 .sales-point {
-  border: 1px solid pink;
   flex-basis: 30%;
 }
 

@@ -78,10 +78,16 @@ p {
 
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+}
+
+@media (min-width: 40rem) {
+  .sales-points {
+    flex-direction: row;
+  }
 }
 
 .sales-point {
-  border: 1px solid pink;
   //margin: 0 1vw;
   //width: 30%; // Give a fixed with if you are not sure the length of each content.
   flex-basis: 30%;
