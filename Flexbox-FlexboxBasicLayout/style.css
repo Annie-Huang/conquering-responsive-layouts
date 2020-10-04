@@ -81,6 +81,13 @@ p span {
   background-size: cover;
   padding: 10vh 0;
   color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-text {
+  width: 50%;
+  padding: 0 2em;
 }
 
 /*# sourceMappingURL=style.css.map */
