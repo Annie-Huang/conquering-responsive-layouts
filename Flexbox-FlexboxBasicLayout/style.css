@@ -62,10 +62,13 @@ p span {
 .sales-points {
   padding: 12vh 0;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .sales-point {
-  margin: 0 1vw;
+  border: 1px solid pink;
+  flex-basis: 30%;
 }
 
 .cta {

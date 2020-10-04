@@ -75,10 +75,16 @@ p {
 .sales-points {
   padding: 12vh 0;
   text-align: center;
+
+  display: flex;
+  justify-content: space-around;
 }
 
 .sales-point {
-  margin: 0 1vw;
+  border: 1px solid pink;
+  //margin: 0 1vw;
+  //width: 30%; // Give a fixed with if you are not sure the length of each content.
+  flex-basis: 30%;
 }
 
 .cta {
