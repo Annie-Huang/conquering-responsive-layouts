@@ -21,7 +21,7 @@ Day 7 | Solution to challenge #3
 Day 8 | Flexbox Basics                  << 02-3-challenge
 Day 9 | A deeper dive into flexbox      << 02-6-challenge2
 Day 10 | Extra curricular activities    << Flexbox-FlexboxBasicLayout
-Day 11 | Using flexbox for a navigation
+Day 11 | Using flexbox for a navigation << nav-challenge
 
 ==========================================================================
 
