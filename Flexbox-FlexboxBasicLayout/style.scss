@@ -104,6 +104,11 @@ p {
 }
 
 .cta-text {
-  width: 50%; // flex-basis: 50%
+  // The justify-content: flex-end; will still put the .cta-text in the middle
+  // since the width is still default for 100%
   padding: 0 2em;
+
+  @media (min-width: 40rem) {
+    width: 50%; // flex-basis: 50%
+  }
 }

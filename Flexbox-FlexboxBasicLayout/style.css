@@ -86,8 +86,12 @@ p span {
 }
 
 .cta-text {
-  width: 50%;
   padding: 0 2em;
+}
+@media (min-width: 40rem) {
+  .cta-text {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
