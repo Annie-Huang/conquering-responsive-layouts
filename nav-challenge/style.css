@@ -74,6 +74,11 @@ header {
   padding: 1em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__list {
   margin: 0;
   padding: 0;
@@ -85,8 +90,11 @@ header {
   /*height: 2em;*/ /* Always remember to set padding of the parent raterht and set height of the current child!!! */
 }
 
-.nav__item {
-  margin-right: 1em;
+/*.nav__item {*/
+/*  margin-right: 1em;*/
+/*}*/
+.nav__item + .nav__item{
+  margin-left: 1em;
 }
 
 .nav__link {
