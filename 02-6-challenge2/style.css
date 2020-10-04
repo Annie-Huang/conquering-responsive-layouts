@@ -61,6 +61,7 @@ h1 {
   color: #FFF;
 }
 
+.main__text,
 .hero__text {
   width: 62%;
 }
@@ -72,6 +73,25 @@ h1 {
 
 .hero p {
   margin-bottom: 3em;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.main__text h2 {
+  color: #136C72;
+}
+.main__bulletin{
+  width: 32%;
+  background: #136C72;
+  text-align: center;
+  color: white;
+  padding: 0 2em;
+}
+
+.main__bulletin-item + .main__bulletin-item {
+  margin-top: 2em;
 }
 
 .btn {
