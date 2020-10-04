@@ -1,4 +1,8 @@
 https://courses.kevinpowell.co/courses/conquering-responsive-layouts
+Flexbox Tutorial - Building a simple layout with Flexbox (https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3)
+https://codepen.io/kevinpowell/pen/xrWKBE
+Flexbox basics (https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd)
+
 
 https://github.com/Annie-Huang/conquering-responsive-layouts
 
@@ -16,6 +20,7 @@ Day 6 | Review
 Day 7 | Solution to challenge #3
 Day 8 | Flexbox Basics              << 02-3-challenge
 Day 9 | A deeper dive into flexbox  << 02-6-challenge2
+Day 10 | Extra curricular activities
 
 ==========================================================================
 
