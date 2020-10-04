@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./Flexbox-FlexboxBasicLayout"
+    "start": "lite-server --baseDir=./02-6-challenge2"
   },
   "repository": {
     "type": "git",
