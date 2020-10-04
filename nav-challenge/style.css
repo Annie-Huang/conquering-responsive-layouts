@@ -77,9 +77,15 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 2em;
 }
 
 .nav__link {
+  padding: 0.25em;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;;
