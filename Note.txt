@@ -15,7 +15,7 @@ Day 5 | Practice time!
 Day 6 | Review
 Day 7 | Solution to challenge #3
 Day 8 | Flexbox Basics              << 02-3-challenge
-Day 9 | A deeper dive into flexbox
+Day 9 | A deeper dive into flexbox  << 02-6-challenge2
 
 ==========================================================================
 
