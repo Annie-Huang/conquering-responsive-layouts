@@ -40,3 +40,34 @@ h1 {
   font-size: 3.75rem;  /* 60px */
   color: #824936;
 }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;  /* 36px */
+  color: #824936;
+  text-align: center;
+}
+
+.main {
+  padding: 1em 0 4em;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: 100%; /* Each p tries to reach the max length. If there is multiple <p>, then you need another layer of .col to wrap it and margin between .col */
+  /*border: 1px solid pink;*/
+}
+
+.col + .col {
+  margin-left: 40px;
+}
