@@ -74,9 +74,19 @@ header {
   padding: 1em 0;
 }
 
+.logo {
+  margin-right: 1em;
+}
 .nav {
+  /* align-self and align-item will have the same effect, align-item to make the .nav bigger in height so it can contains the padding space*/
+  /*align-self: center;*/
+
+  /*width: 100%; !* It will try to be 100% *!*/
+  flex-grow: 1;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__list {
