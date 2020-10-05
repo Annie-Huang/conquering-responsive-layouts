@@ -1,0 +1,40 @@
+/*
+https://fonts.google.com/specimen/Roboto?query=roboto&sidebar.open=true&selection.family=Roboto:wght@300;400
+https://fonts.google.com/specimen/Playfair+Display?query=Playfair&sidebar.open=true&selection.family=Playfair+Display:wght@900|Roboto:wght@300;400
+
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #f3EED9;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 70%;
+  text-align: center;
+}
+.subtitle {
+  font-size: 1.125rem; /* 18px */
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.75rem;  /*60px */
+  color: #824936;
+}
