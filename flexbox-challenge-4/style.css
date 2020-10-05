@@ -11,7 +11,7 @@ https://fonts.google.com/specimen/Playfair+Display?query=Playfair&sidebar.open=t
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.3125rem; /* 21px */
 }
 
 .hero {
@@ -26,8 +26,10 @@ body {
 
 .hero-text {
   width: 70%;
+  max-width: 775px;
   text-align: center;
 }
+
 .subtitle {
   font-size: 1.125rem; /* 18px */
   text-transform: uppercase;
@@ -35,6 +37,6 @@ body {
 }
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3.75rem;  /*60px */
+  font-size: 3.75rem;  /* 60px */
   color: #824936;
 }
