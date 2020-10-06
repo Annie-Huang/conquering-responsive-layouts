@@ -44,14 +44,18 @@ h1 {
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2.25rem;  /* 36px */
+}
+.main-title {
   color: #824936;
   text-align: center;
 }
-
-.main {
-  padding: 1em 0 4em;
+.article-title {
+  color: #f3EED9;
 }
 
+.main {
+  padding: 2em 0 4em;
+}
 .container {
   width: 80%;
   max-width: 1100px;
@@ -65,9 +69,19 @@ h2 {
 
 .col {
   width: 100%; /* Each p tries to reach the max length. If there is multiple <p>, then you need another layer of .col to wrap it and margin between .col */
-  /*border: 1px solid pink;*/
+  border: 1px solid pink;
 }
 
 .col + .col {
   margin-left: 40px;
+}
+
+article {
+  padding: 4em 0;
+}
+.article--primary {
+  background: #222C2A;
+}
+.article--secondary {
+  background: #824936;
 }
