@@ -69,7 +69,7 @@ h2 {
 
 .col {
   width: 48%; /* Each p tries to reach the max length. If there is multiple <p>, then you need another layer of .col to wrap it and margin between .col */
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
 
   /* Together with style in .article__image, it will make the image in the column responsive.
      Will decrease the size (keep proportion) when the window size decrease.
