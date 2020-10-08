@@ -26,6 +26,7 @@ Day 12 | Getting fancy with navigations << flexbox-challenge-4
 Day 13/14
 Day 15 | Intro to media queries         << nav-challenge
 Day 16 | What breakpoints to use?       << nav-challenge
+Day 17 | The viewport meta tag
 
 ==========================================================================
 
