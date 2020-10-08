@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./nav-challenge"
+    "start": "lite-server --baseDir=./flexbox-challenge-4"
   },
   "repository": {
     "type": "git",
