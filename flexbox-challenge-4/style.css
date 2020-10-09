@@ -35,7 +35,6 @@ h1, h2 {
 /*  font-size: 2.25rem;  !* 36px *!*/
 /*}*/
 
-
 .hero {
   height: 100vh;
   background-color: #f3EED9;
@@ -57,6 +56,16 @@ h1, h2 {
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
+
+.intro {
+  background-color: #f3EED9;
+  padding: 200px 0; /* we are not setting 100vh * for this one */
+  text-align: center; /* use text-align rather than flexbox */
+  color: #824936; /* put the color here rather than in h1 <<< Good decision */
+}
+
+
+
 
 .main-title {
   color: #824936;
