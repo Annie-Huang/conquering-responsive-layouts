@@ -17,6 +17,11 @@ body {
   color: #222C2A;
 }
 
+/* This will force the image to shrink with the window but never go above its original size when stretch */
+img {
+  max-width: 100%;
+}
+
 .hero {
   height: 100vh;
   background-color: #f3EED9;
