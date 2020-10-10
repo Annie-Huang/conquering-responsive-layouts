@@ -144,6 +144,9 @@ header {
   flex-direction: column;
   align-items: center;
 }
+.nav__list--primary {
+  margin-bottom: 2em; /* better to do this one than rely on the margin top|bottom on user agent for <ul> (.nav__list) */
+}
 .nav__item {
   /*border: 1px solid orangered;*/
   /*margin: 0.25em 0;*/
@@ -154,22 +157,25 @@ header {
   text-decoration: none;
   color: #fff;
 
-  display: block;
-  padding: 0.3em 0.75em;
-}
-.nav__link:hover,
-.nav__link:focus {
-  opacity: .65;
-}
-.nav__list--primary {
-  margin-bottom: 2em; /* better to do this one than rely on the margin top|bottom on user agent for <ul> (.nav__list) */
+  /*display: block;*/
+  /*padding: 0.3em 0.75em;*/
 }
 .nav__link--button {
   /*border: 1px solid white;*/
   background-color: #fff;
   color: #23424A;
   border-radius: 100vw;
+
+  /* I personally think it's wrong to add padding on the button but not the nav__link.
+     this will make the border of other link when in focus much more smaller than the button */
+  padding: 0.25em 0.75em;
 }
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: .65;
+}
+
 
 
 .logo {
