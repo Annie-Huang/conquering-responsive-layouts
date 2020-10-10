@@ -230,8 +230,9 @@ header {
     height: auto;
   }
   .nav__list {
-    margin: 0;
-    flex-direction: row;
+    /*margin: 0; !* Already set to 0 from Kevin's solution *!*/
+    display: flex;
+    /*flex-direction: row;*/
   }
   .nav__list--primary {
     margin: 0 auto;

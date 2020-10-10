@@ -45,3 +45,4 @@ C:\react\conquering-responsive-layouts>npm init -y
 7. Generally the gap between each line in h1-h4 is big. You can make it smaller but giving a line-height close to 1 but Need to check
    when in smaller screen whether each line may overlap each other. e.g. the 'p' in line 1 with the 'h' in line 2
 8. It's better to set min-height over vh in a section in case your content increase.
+9. Always remove all the padding and margin for ul, li. So you can better control rather than rely on default value on each browser which maybe different.
