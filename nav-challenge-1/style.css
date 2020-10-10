@@ -161,6 +161,9 @@ header {
 .nav__link:focus {
   opacity: .65;
 }
+.nav__list--primary {
+  margin-bottom: 2em; /* better to do this one than rely on the margin top|bottom on user agent for <ul> (.nav__list) */
+}
 .nav__link--button {
   /*border: 1px solid white;*/
   background-color: #fff;
