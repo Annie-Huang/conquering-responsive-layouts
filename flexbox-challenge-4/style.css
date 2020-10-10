@@ -88,6 +88,9 @@ section { /* main, article */
   text-align: center; /* use text-align rather than flexbox */
   color: #824936; /* put the color here rather than in h1 <<< Good decision */
   min-height: 660px; /* Give a min-height so it will grow according to the content. Better to vh in case your content is huge */
+
+  display: flex;
+  align-items: center; /* Don't need justify-content as we use text-align:center */
 }
 .intro__text { /* .subtitle */
   text-transform: uppercase;
