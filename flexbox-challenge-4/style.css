@@ -39,6 +39,19 @@ h1, h2 {
 /*  font-size: 2.25rem;  !* 36px *!*/
 /*}*/
 
+/* style first for mobile */
+section { /* main, article */
+  padding: 4em 0;
+}
+/* style first for mobile */
+.container { /* container */
+  width: 85%;
+  /*  max-width: 1100px;*/
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------*/
+
 .hero {
   height: 100vh;
   background-color: #f3EED9;
@@ -61,6 +74,7 @@ h1, h2 {
   letter-spacing: 0.5em;
 }
 
+
 .intro { /* .hero */
   background-color: #f3EED9;
   padding: 200px 0; /* we are not setting 100vh * for this one */
@@ -73,6 +87,9 @@ h1, h2 {
   font-size: 1.125rem; /* 18px */
   color: #222C2A;
   margin: 0 0 .25em;
+}
+.intro__title { /* h1 */
+  font-size: 60px;  /* Not sure why Kevin is not using rem here. */
 }
 
 
@@ -88,11 +105,11 @@ h1, h2 {
 .main {
   padding: 2em 0 4em;
 }
-.container {
-  width: 80%;
-  max-width: 1100px;
-  margin: 0 auto;
-}
+/*.container {*/
+/*  width: 80%;*/
+/*  max-width: 1100px;*/
+/*  margin: 0 auto;*/
+/*}*/
 
 .row {
   display: flex;
