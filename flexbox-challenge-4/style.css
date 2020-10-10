@@ -99,6 +99,14 @@ section { /* main, article */
   font-size: 60px;  /* Not sure why Kevin is not using rem here. */
 }
 
+.section-three { /* .article--primary */
+  background: #222C2A;
+  color: #fff;
+}
+.section-four { /* .article--secondary */
+  background: #824936;
+  color: #fff;
+}
 
 
 .main-title {
