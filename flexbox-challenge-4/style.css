@@ -87,6 +87,7 @@ section { /* main, article */
   padding: 200px 0; /* we are not setting 100vh * for this one */
   text-align: center; /* use text-align rather than flexbox */
   color: #824936; /* put the color here rather than in h1 <<< Good decision */
+  min-height: 660px; /* Give a min-height so it will grow according to the content. Better to vh in case your content is huge */
 }
 .intro__text { /* .subtitle */
   text-transform: uppercase;
@@ -168,11 +169,13 @@ article {
   .row {
     display: flex;
   }
-
   .col {
     width: 100%;
   }
   .col + .col {
     margin-left: 4em;
+  }
+  .intro__title { /* h1 */
+    font-size: 3.75rem;  /* 60px */
   }
 }
