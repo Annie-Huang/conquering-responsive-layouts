@@ -227,15 +227,20 @@ header {
     visibility: visible;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: auto;
   }
   .nav__list {
-    /*margin: 0; !* Already set to 0 from Kevin's solution *!*/
     display: flex;
     /*flex-direction: row;*/
+
+    margin: 0; /* Already set to 0 from Kevin's solution in mobile*/
   }
   .nav__list--primary {
     margin: 0 auto;
+  }
+  .nav__item {
+    margin: 0;
   }
   .nav__item + .nav__item {
     margin-left: 0.5em;
