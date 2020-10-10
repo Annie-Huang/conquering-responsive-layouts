@@ -40,4 +40,7 @@ C:\react\conquering-responsive-layouts>npm init -y
 3. Set the max-width on your container, you don't want to container goes forever big along with the window size, (human head doesn't like to move to read text)
 4. Use rem for font-size, margin. And em for padding, margin (button margin should still use rem if you want between buttons set the same space)
 5. Can consider use vh on front-size for bigbig title, rather than em|rem
-
+6. Good to set img {max-width 100%} so it will shrink with the window but never go above its original size when stretch.
+7. Generally the gap between each line in h1-h4 is big. You can make it smaller but giving a line-height close to 1 but Need to check
+   when in smaller screen whether each line may overlap each other. e.g. the 'p' in line 1 with the 'h' in line 2
+8. It's better to set min-height over vh in a section in case your content increase.
