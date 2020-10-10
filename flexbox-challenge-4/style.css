@@ -46,8 +46,8 @@ section { /* main, article */
 /* style first for mobile */
 .container { /* container */
   width: 85%;
-  /*  max-width: 1100px;*/
   margin: 0 auto;
+  max-width: 1128px; /* specific in the requirement. It is really for desktop view. */
 }
 
 .section-title { /* .article-title, h2 */
@@ -159,4 +159,17 @@ article {
 }
 .article--secondary {
   background: #824936;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+  .col + .col {
+    margin-left: 4em;
+  }
 }
