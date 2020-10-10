@@ -28,7 +28,7 @@ Day 15 | Intro to media queries         << nav-challenge
 Day 16 | What breakpoints to use?       << nav-challenge
 Day 17 | The viewport meta tag
 Day 18 | Challenge solution & Mobile-first  << flexbox-challenge-4
-Day 19 | Mobile navigation challenge
+Day 19 | Mobile navigation challenge        << nav-challenge-1
 
 ==========================================================================
 
@@ -39,7 +39,7 @@ C:\react\conquering-responsive-layouts>npm init -y
 2. Avoid to set height. Set padding on element instead of height:10px to give more background
 3. Set the max-width on your container, you don't want to container goes forever big along with the window size, (human head doesn't like to move to read text)
 4. Use rem for font-size, margin. And em for padding, margin (button margin should still use rem if you want between buttons set the same space)
-5. Can consider use vh on front-size for bigbig title, rather than em|rem
+5. Can consider use vh on front-size for big big title, rather than em|rem
 6. Good to set img {max-width 100%} so it will shrink with the window but never go above its original size when stretch.
 7. Generally the gap between each line in h1-h4 is big. You can make it smaller but giving a line-height close to 1 but Need to check
    when in smaller screen whether each line may overlap each other. e.g. the 'p' in line 1 with the 'h' in line 2
