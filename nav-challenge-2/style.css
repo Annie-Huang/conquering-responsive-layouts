@@ -4,14 +4,23 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
  */
 
-
+/* Reset value */
 *, *::before, *::after {
   box-sizing: content-box;
+}
+
+:root {
+  --clr-dark: #2E323F;
+  --clr-light: #fff;
+  --clr-primary: #A59678;
+  --clr-secondary: #3B4050;
+  --clr-tertiary : #6F737F;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.125rem; /* 18px; */
+  color: var(--clr-dark);
 }
 
 ul {
@@ -26,6 +35,9 @@ img {
   max-width: 100%;
 }
 
+/*-----------------------------------*/
+
+/* Component styling */
 .container {
   width: 85%;
   max-width: 1200px;
