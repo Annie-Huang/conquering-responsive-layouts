@@ -18,12 +18,15 @@ font-family: 'Oswald', sans-serif;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif; /* only add 'Oswald' when we make the change */
   font-size: 1.125rem; /* 18px; */
   color: var(--clr-dark);
   margin: 0; /* override browser agent default */
 }
 
+h1 {
+  margin-top: 0;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -31,6 +34,10 @@ ul {
 }
 a {
   text-decoration: none;
+}
+a:focus,
+a:hover {
+  opacity: 0.7;
 }
 img {
   max-width: 100%;
@@ -43,6 +50,9 @@ img {
   width: 85%;
   max-width: 1200px;
   margin: 0 auto;
+}
+.accent {
+  color: var(--clr-primary);
 }
 
 /* Component styling -- Specific ones */
@@ -62,10 +72,6 @@ img {
   /*border: 1px solid green;*/
   color: var(--clr-light);
 }
-.nav__link:focus,
-.nav__link:hover {
-  opacity: 0.7;
-}
 .nav__link--btn {
   background-color: var(--clr-primary);
   display: inline-block;
@@ -73,3 +79,27 @@ img {
   border-radius: 100vw;
 }
 
+/* Component styling -- Specific ones -- hero section*/
+.hero {
+  background-color: var(--clr-secondary);
+  padding: 2rem 0;
+  color: var(--clr-light);
+  text-align: center;
+}
+.hero__title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem; /* 48px, will make it 90px in desktop */
+  line-height: 1.2;
+}
+.hero__text {
+  font-size: 1.5rem; /* 16px, will make it 24px in desktop */
+}
+.hero__btn {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 100vw;
+}
