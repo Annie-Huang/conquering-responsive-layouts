@@ -21,6 +21,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.125rem; /* 18px; */
   color: var(--clr-dark);
+  margin: 0; /* override browser agent default */
 }
 
 ul {
@@ -37,9 +38,25 @@ img {
 
 /*-----------------------------------*/
 
-/* Component styling */
+/* Component styling -- common ones */
 .container {
   width: 85%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Component styling -- Specific ones */
+/* Component styling -- Specific ones -- Header section*/
+.nav {
+  background-color: var(--clr-dark);
+  padding: 1rem 0;
+  text-align: center;
+}
+.nav__item {
+  /*border: 1px solid red;*/
+  margin-top: 1rem;
+}
+.nav__link {
+  /*border: 1px solid green;*/
+  color: var(--clr-light);
 }
