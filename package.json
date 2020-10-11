@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=./nav-challenge-1"
+    "start": "lite-server --baseDir=./nav-challenge-2"
   },
   "repository": {
     "type": "git",
