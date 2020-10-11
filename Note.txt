@@ -47,3 +47,13 @@ C:\react\conquering-responsive-layouts>npm init -y
    when in smaller screen whether each line may overlap each other. e.g. the 'p' in line 1 with the 'h' in line 2
 8. It's better to set min-height over vh in a section in case your content increase.
 9. Always remove all the padding and margin for ul, li. So you can better control rather than rely on default value on each browser which maybe different.
+
+Summary:
+- Webistes are responsive before we write any CSS
+- When our layouts run into issues, we're at fault
+- Usually (though not always), a desktop-first approach is the culprit
+- Writing mobile-first CSS tends to be the easier way to approach it as well, even if you only have a desktop layout to base things off of
+
+
+
+
