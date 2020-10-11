@@ -226,7 +226,8 @@ header {
   .nav {
     visibility: visible;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: flex-end; /* Kevin prefer to do flex-end as it's not done before */
     align-items: center;
     position: relative;
     height: auto;
@@ -237,6 +238,8 @@ header {
 
     margin: 0; /* Already set to 0 from Kevin's solution in mobile*/
   }
+  /* Kevin prefer to do flex-end as it's not done before */
+  /*
   .nav__list--primary {
     margin: 0 auto;
   }
@@ -244,11 +247,18 @@ header {
     margin: 0;
   }
   .nav__item + .nav__item {
-    margin-left: 0.5em;
+    margin-left: 1.5em;
   }
+  */
+  .nav__item {
+    margin: 0 0 0 1.5em;
+  }
+
+  /* Don't need this for Kevin's current current solution as it's never set to block in mobile
   .nav__link {
     display: inline;
   }
+  */
 
   .row {
     display: flex;
