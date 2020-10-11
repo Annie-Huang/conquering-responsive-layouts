@@ -1,0 +1,15 @@
+/*
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+
+
+*, *::before, *::after {
+  box-sizing: content-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem; /* 18px; */
+}
