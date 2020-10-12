@@ -52,7 +52,7 @@ img {
   margin: 0 auto;
 }
 .col + .col {
-  margin-top: 2.5rem;
+  margin-top: 2em;
 }
 .accent {
   color: var(--clr-primary);
@@ -93,7 +93,7 @@ img {
 }
 .hero__title {
   font-family: 'Oswald', sans-serif;
-  font-size: 3rem; /* 48px, will make it 90px in desktop */
+  font-size: 3.5rem; /* 56px, will make it 90px in desktop */
   line-height: 1.2;
 }
 .hero__text {
@@ -116,8 +116,11 @@ img {
 }
 .section-one__title {
   color: var(--clr-primary);
-  font-size: 1.25rem; /* 20px, will make it 30px in desktop */
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.875rem; /* 30px */
 }
 .section-one__text {
-  font-size: 1rem; /* 16px, will make it 18px in desktop */
+  font-size: 1.125rem; /* 18px */
+}
+
 }
