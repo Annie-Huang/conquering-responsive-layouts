@@ -24,7 +24,7 @@ body {
   margin: 0; /* override browser agent default */
 }
 
-h1 {
+h1, h3 {
   margin-top: 0;
 }
 ul {
@@ -51,9 +51,14 @@ img {
   max-width: 1200px;
   margin: 0 auto;
 }
+.col + .col {
+  margin-top: 2.5rem;
+}
 .accent {
   color: var(--clr-primary);
 }
+
+
 
 /* Component styling -- Specific ones */
 /* Component styling -- Specific ones -- Header section*/
@@ -102,4 +107,17 @@ img {
   display: inline-block;
   padding: 0.5rem 2rem;
   border-radius: 100vw;
+}
+
+/* Component styling -- Specific ones -- main -- section one */
+.section-one {
+  background-color: #F1F1F1;
+  padding: 2rem 0;
+}
+.section-one__title {
+  color: var(--clr-primary);
+  font-size: 1.25rem; /* 20px, will make it 30px in desktop */
+}
+.section-one__text {
+  font-size: 1rem; /* 16px, will make it 18px in desktop */
 }
