@@ -123,4 +123,30 @@ img {
   font-size: 1.125rem; /* 18px */
 }
 
+/* Component styling -- Specific ones -- main -- section two */
+.section-two {
+  padding: 2rem 0;
+}
+.primary-content__title {
+  color: var(--clr-primary);
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.25rem; /* 36px */
+  line-height: 1.2;
+}
+.primary-content__text {
+  font-size: 1.3125rem; /* 21px */
+}
+.sidebar-item {
+  background-color: var(--clr-secondary);
+  color: var(--clr-light);
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2em;
+}
+.sidebar-item__title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.875rem; /* 30px */
+}
+.sidebar-item__text {
+  font-size: 1.125rem; /* 18px */
 }
