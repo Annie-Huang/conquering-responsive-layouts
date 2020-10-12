@@ -25,7 +25,7 @@ body {
 }
 
 h1, h2, h3 {
-  margin-top: 0;
+  margin: 0;
 }
 ul {
   margin: 0;
@@ -161,6 +161,7 @@ img {
 .footer__title {
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem; /* 24px */
+  margin-bottom: 2rem;
 }
 .footer__subtitle {
   color: var(--clr-primary);
@@ -176,4 +177,17 @@ img {
 .footer__link {
   color: var(--clr-light);
   font-size: 1rem; /* 16px */
+}
+
+@media (min-width: 700px) {
+  /* Component styling -- common ones */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Component styling -- Specific ones -- hero section*/
+  .hero__text {
+    align-self: flex-end;
+  }
 }
