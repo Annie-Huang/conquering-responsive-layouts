@@ -51,8 +51,8 @@ img {
   max-width: 1200px;
   margin: 0 auto;
 }
-.col + .col {
-  margin-top: 2em;
+.col {
+  margin-bottom: 2em;
 }
 .accent {
   color: var(--clr-primary);
@@ -112,7 +112,7 @@ img {
 /* Component styling -- Specific ones -- main -- section one */
 .section-one {
   background-color: #F1F1F1;
-  padding: 2rem 0;
+  padding: 2rem 0 0.5rem;
 }
 .section-one__title {
   color: var(--clr-primary);
@@ -155,7 +155,7 @@ img {
 .footer {
   background-color: var(--clr-secondary);
   color: var(--clr-light);
-  padding: 2rem 0;
+  padding: 2rem 0 0.5rem;
   text-align: center;
 }
 .footer__title {
