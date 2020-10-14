@@ -163,8 +163,9 @@ img {
 }
 .footer__title {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem; /* 24px */
+  font-size: 3rem; /* set it to 48px, it's not the 24px list in the requirement*/
   margin-bottom: 2rem;
+  line-height: 1.2;
 }
 .footer__subtitle {
   color: var(--clr-primary);
@@ -222,6 +223,17 @@ img {
   }
   .sidebar-item + .sidebar-item {
     margin-left: 1em;
+  }
+
+  /* Component styling -- Specific ones -- footer */
+  .footer {
+    text-align: left;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__first-col {
+    max-width: 40%;
   }
 }
 
