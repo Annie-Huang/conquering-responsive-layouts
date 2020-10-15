@@ -141,8 +141,10 @@ img {
 .sidebar-item {
   background-color: var(--clr-secondary);
   color: var(--clr-light);
-  padding: 1rem;
+  padding: 1em;
   text-align: center;
+}
+.sidebar-item + .sidebar-item{
   margin-top: 2em;
 }
 .sidebar-item__title {
@@ -224,10 +226,8 @@ img {
     justify-content: space-between;
   }
 
-  .sidebar-item {
-    margin-top: 1em;
-  }
   .sidebar-item + .sidebar-item {
+    margin-top: 0;
     margin-left: 1em;
   }
 
@@ -253,5 +253,25 @@ img {
   /* Component styling -- Specific ones -- hero section*/
   .hero__title {
     font-size: 5.625rem; /* 90px*/
+  }
+
+  /* Component styling -- Specific ones -- main -- section two */
+  .section-two__row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .primary-content {
+    width: 60%;
+  }
+  .sidebar {
+    width: 30%;
+    display: block;
+  }
+  .sidebar-item {
+    padding: 2em;
+  }
+  .sidebar-item + .sidebar-item {
+    margin-top: 2em;
+    margin-left: 0;
   }
 }
