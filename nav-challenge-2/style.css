@@ -127,7 +127,10 @@ img {
 
 /* Component styling -- Specific ones -- main -- section two */
 .section-two {
-  padding: 2rem 0;
+  padding: 2em 0;
+}
+.primary-content {
+  margin-bottom: 2em;
 }
 .primary-content__title {
   color: var(--clr-primary);
@@ -221,11 +224,16 @@ img {
   }
 
   /* Component styling -- Specific ones -- main -- section two */
+  .section-two {
+    padding: 5em 0;
+  }
+  .primary-content {
+    margin-bottom: 3em;
+  }
   .sidebar {
     display: flex;
     justify-content: space-between;
   }
-
   .sidebar-item + .sidebar-item {
     margin-top: 0;
     margin-left: 1em;
@@ -262,6 +270,7 @@ img {
   }
   .primary-content {
     width: 60%;
+    margin-bottom: 0;
   }
   .sidebar {
     width: 30%;
