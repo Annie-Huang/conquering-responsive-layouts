@@ -114,7 +114,7 @@ img {
 /* Component styling -- Specific ones -- main -- section one */
 .section-one {
   background-color: #F1F1F1;
-  padding: 2rem 0 0.5rem;
+  padding: 2em 0 0.5em;
 }
 .section-one__title {
   color: var(--clr-primary);
@@ -158,13 +158,13 @@ img {
 .footer {
   background-color: var(--clr-secondary);
   color: var(--clr-light);
-  padding: 2rem 0 0.5rem;
+  padding: 2em 0 0.5em;
   text-align: center;
 }
 .footer__title {
   font-family: 'Oswald', sans-serif;
   font-size: 3rem; /* set it to 48px, it's not the 24px list in the requirement*/
-  margin-bottom: 2rem;
+  margin-bottom: 1em;
   line-height: 1.2;
 }
 .footer__subtitle {
@@ -191,7 +191,7 @@ img {
     justify-content: space-between;
   }
   .col {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
   .col + .col{
     margin-left: 1.5em;
@@ -215,6 +215,7 @@ img {
   /* Component styling -- Specific ones -- main -- section one */
   .section-one {
     text-align: center;
+    padding: 4em 0;
   }
 
   /* Component styling -- Specific ones -- main -- section two */
@@ -228,6 +229,7 @@ img {
   /* Component styling -- Specific ones -- footer */
   .footer {
     text-align: left;
+    padding: 4em 0;
   }
   .footer__title {
     text-align: center;
