@@ -219,6 +219,11 @@ img {
   }
 
   /* Component styling -- Specific ones -- main -- section two */
+  .sidebar {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .sidebar-item {
     margin-top: 1em;
   }
