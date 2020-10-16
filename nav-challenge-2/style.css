@@ -72,7 +72,7 @@ img {
 }
 .nav__item {
   /*border: 1px solid red;*/
-  margin-top: 1rem;
+  margin-top: 1em;
 }
 .nav__link {
   /*border: 1px solid green;*/
@@ -202,6 +202,22 @@ img {
     margin-left: 2em;
   }
 
+  /* Component styling -- Specific ones -- Header section*/
+  .logo {
+    /*border: 1px solid yellow;*/
+    display: flex;
+    align-items: center;
+  }
+  .nav__list {
+    /*border: 1px solid white;*/
+    display: flex;
+    align-items: center;
+  }
+  .nav__item {
+    margin-top: 0;
+    margin-left: 2em;
+  }
+
   /* Component styling -- Specific ones -- hero section*/
   .hero {
     padding: 4em 0 6em;
@@ -256,6 +272,11 @@ img {
   /* Component styling -- common ones */
   .col + .col {
     margin-left: 4em;
+  }
+
+  /* Component styling -- Specific ones -- Header section*/
+  .nav__item {
+    margin-left: 2.5em;
   }
 
   /* Component styling -- Specific ones -- hero section*/
