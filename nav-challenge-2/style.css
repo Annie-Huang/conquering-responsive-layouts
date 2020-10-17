@@ -86,6 +86,12 @@ img {
   left: 0;
   border-radius: 50%;
 }
+.nav-toggle:focus {
+  outline: 0;
+}
+.nav-toggle:hover {
+  opacity: 0.7;
+}
 .hamburger,
 .hamburger::before,
 .hamburger::after {
