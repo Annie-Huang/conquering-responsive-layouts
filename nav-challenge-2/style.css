@@ -142,6 +142,12 @@ img {
   transform: translateY(2px);
 }
 */
+.nav__list {
+  display: none;
+}
+.show {
+  display: block;
+}
 .nav__item {
   /*border: 1px solid red;*/
   margin-top: 1em;
