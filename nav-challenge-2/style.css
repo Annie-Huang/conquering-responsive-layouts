@@ -51,6 +51,8 @@ img {
   width: 85%;
   max-width: 1200px;
   margin: 0 auto;
+
+  position: relative;
 }
 .col {
   margin-bottom: 2em;
@@ -69,6 +71,46 @@ img {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+}
+.nav-toggle {
+  /* Remove browser style for button */
+  padding: 0;
+  border: 0;
+
+  cursor: pointer;
+
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  left: 0;
+  border-radius: 50%;
+}
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  position: relative;
+  width: 15px;
+  height: 3px;
+  background-color: var(--clr-dark);
+  top: calc(50% - 1.5px);
+  left: 7.5px;
+}
+.hamburger::before {
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: 0;
+}
+.hamburger::after {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 0;
+}
+
+.logo {
+  /*border: 1px solid pink;*/
 }
 .nav__item {
   /*border: 1px solid red;*/
