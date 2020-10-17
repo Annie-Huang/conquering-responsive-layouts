@@ -269,6 +269,9 @@ img {
   }
 
   /* Component styling -- Specific ones -- Header section*/
+  .nav-toggle {
+    display: none;
+  }
   .logo {
     /*border: 1px solid yellow;*/
     display: flex;
