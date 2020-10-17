@@ -109,9 +109,33 @@ img {
   left: 0;
 }
 
-.logo {
-  /*border: 1px solid pink;*/
+/* Kevin's solution of using width 50%; margin: 0 auto.
+   And then set ::before, ::after to display block and transform: translateY on them.
+   I eventually understand but using absolute position is still more familiar to me.
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  position: relative;
+  width: 50%;
+  height: 3px;
+  background-color: var(--clr-dark);
+  margin: 0 auto;
 }
+.hamburger::before {
+  content: '';
+  width: 100%;
+  background-color: var(--clr-dark);
+  display: block;
+  transform: translateY(-5px);
+}
+.hamburger::after {
+  content: '';
+  width: 100%;
+  display: block;
+  transform: translateY(2px);
+}
+*/
 .nav__item {
   /*border: 1px solid red;*/
   margin-top: 1em;
